@@ -1,3 +1,7 @@
 # Sololearn
 
-https://github.com/azminewasi/Sololearn-Course-Projects/tree/main/Sololearn%20-%20Data%20Science%20with%20Python
+This repository have the courses that I made and are available on the _Sololearn_ app
+
+These courses are:
+
+- Python for Data Science
