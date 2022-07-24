@@ -1,0 +1,129 @@
+---
+title: "R - Introduction"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Índice
+1. [print()](#print)
+1. [Comments #](#comments)
+
+[Índice](#índice)
+
+## print
+
+To output text we use the method `print()`. It works same as in Python.
+
+```{r}
+print("Hello, world")
+```
+
+---
+
+[Índice](#índice)
+
+## Comments
+
+To use comments we use the character "#"
+
+```{r}
+# Outputs "Hello, world"
+print("Hello, world")
+```
+
+---
+
+[Índice](#índice)
+
+## Variables
+
+In R the variable type does not have to be defined.
+
+However if we want to store as an integer we put the character "L" next to the value of the variable.
+
+We can use `=`, `->` or `<-` to assign a value to a variable
+
+```{r}
+x = 42L
+y = 42
+z = 'hola'
+print(typeof(x))
+print(typeof(y))
+print(typeof(z))
+
+```
+
+---
+
+[Índice](#índice)
+
+## cat
+
+To output text we can also use the cat() method.
+
+This help us to concatenate
+```{r}
+z = 'hola \"Santiago\"'
+print(z)
+```
+
+```{r}
+x = 10
+z = 'hola \"Santiago\"'
+cat(z, x)
+```
+
+---
+
+[Índice](#índice)
+
+## Math
+
+- Exponentiation we use "**" or "^"
+- Module "%%" 
+- Integer division "%/%".
+- min()
+- max()
+- sqrt()
+
+
+---
+
+[Índice](#índice)
+
+
+## Booleans
+
+There are two boolean values in R: `TRUE` and `FALSE`.
+
+The logic operators are:
+
+- Greater >
+- <
+- <=
+- >=
+- ==
+- !=
+
+---
+
+[Índice](#índice)
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
